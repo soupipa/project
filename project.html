@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Item</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Choose from the menu</h1>
+    <div class="item-selection">
+        <div>
+            <div>
+                <img src="OIP.jpg" class="image">
+            </div>
+            <button class="item-btn" onclick="selectItem('Item 1')">course 1</button>
+        </div>
+        <div>
+            <div>
+                <img src="RotisserieChick.jpg" class="image">
+            </div>
+            <button class="item-btn" onclick="selectItem('Item 2')">course 2</button>
+        </div>
+        <div>
+            <div>
+                <img src="Tunisian-Kafteji-ingredient-cooking-recipe-method.jpg" class="image">
+            </div>
+            
+            <button class="item-btn" onclick="selectItem('Item 3')">course 3</button>
+        </div>
+    </div>
+    <div id="selected-item"></div>
+  </div> 
+  <script src="script.js"></script>
+</body>
+</html>
